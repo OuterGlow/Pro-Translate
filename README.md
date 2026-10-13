@@ -38,7 +38,7 @@ A Discord bot that translates new messages using AI that understands **slang**, 
 1. Install [Node.js](https://nodejs.org) 18 or newer.
 2. Create a bot at the [Discord Developer Portal](https://discord.com/developers/applications). Under **Bot**, turn on **Message Content Intent**.
 3. Copy `.env.example` to `.env` and fill it in (at least `DISCORD_TOKEN` and one AI key).
-4. Get a free Gemini key at https://aistudio.google.com/apikey (optional backup: https://openrouter.ai/keys).
+4. Get a free Openrouter Key (https://openrouter.ai/keys).
 5. Run:
 
 ```bash
@@ -55,8 +55,7 @@ The console should say `Registered 9 commands`.
 | Variable | What it does |
 | --- | --- |
 | `DISCORD_TOKEN` | Your bot token (required) |
-| `GEMINI_API_KEY` | Free Gemini key (recommended) |
-| `OPENROUTER_API_KEY` | Backup AI key (optional) |
+| `OPENROUTER_API_KEY` | AI key (required) |
 | `GEMINI_MODELS` / `OPENROUTER_MODELS` | Models to try, in order |
 | `WEBSITE_URL` | Link sent by `/web` |
 | `GUILD_ID` | Test server ID. Commands update instantly, but only in that server |
