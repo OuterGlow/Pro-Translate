@@ -1,0 +1,15 @@
+{
+  "name": "pro-translate",
+  "version": "2.0.0",
+  "description": "Discord bot that translates new messages with AI that understands slang",
+  "main": "index.js",
+  "scripts": { "start": "node index.js" },
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/OuterGlow/Pro-Translate.git" },
+  "keywords": ["discord", "discord-bot", "translate", "translation", "discord.js", "ai"],
+  "dependencies": {
+    "discord.js": "^14.22.1",
+    "dotenv": "^16.4.5"
+  }
+}
